@@ -11,7 +11,7 @@ Projeto para aprendizado de Python/Django no curso [Python Pro](http://www.pytho
 *Suportado pelo Python 3 e Django 2*
 
 ```console
-python3 -m venv .venv
+python3 -m venv venv
 source .venv/bin/activate
 pip install -r requirements-dev.txt
 ```

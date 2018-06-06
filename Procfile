@@ -1,0 +1,1 @@
+web: gunicorn afluente.wsgi --log-file -
