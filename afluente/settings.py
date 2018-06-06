@@ -25,7 +25,7 @@ SECRET_KEY = 'o8a8lz8678i7)+k8!yd7qem6f#^i$+6!87n_%psrhfxgsdmi40'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['afluente.herokuapp.com', 'localhost']
 
 
 # Application definition
