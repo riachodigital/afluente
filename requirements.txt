@@ -4,3 +4,12 @@ pytz==2018.4
 gunicorn==19.8.1
 python-decouple==3.1
 six==1.11.0
+boto3==1.7.47
+botocore==1.10.47
+django-s3-folder-storage==0.5
+django-storages==1.6.6
+docutils==0.14
+jmespath==0.9.3
+python-dateutil==2.7.3
+s3transfer==0.1.13
+collectfast==0.6.2
