@@ -176,4 +176,4 @@ if SENTRY_DSN:  # pragma: no cover
         # release based on the git info.
         # If using Heroku use metadata: https://devcenter.heroku.com/articles/dyno-metadata
         'release': config('HEROKU_SLUG_COMMIT'),
-}
+    }
