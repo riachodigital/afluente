@@ -11,6 +11,10 @@ def test_status_code(client):
 @pytest.mark.parametrize(
     'content', [
         'Afluente',
+        'Home',
+        'Contato',
+        'Demo',
+        'Sobre'
     ]
 )
 def test_home(client, content):
