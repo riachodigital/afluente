@@ -1,3 +1,5 @@
+import pytest
+
 from afluente.django_assertions import dj_assert_contains
 
 
@@ -6,6 +8,11 @@ def test_status_code(client):
     assert 200 == response.status_code
 
 
-def test_home(client):
+@pytest.mark.parametrize(
+    'content', [
+        'Afluente',
+    ]
+)
+def test_home(client, content):
     response = client.get('/')
-    dj_assert_contains(response, 'Olá Mundo!')
+    dj_assert_contains(response, content)
