@@ -3,4 +3,8 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'core/home.html')
+
+
+def contato(request):
+    return render(request, 'core/contato.html')
