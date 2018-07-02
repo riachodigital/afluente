@@ -30,12 +30,9 @@ def test_contato_status_code(client):
 @pytest.mark.parametrize(
     'content', [
         'Afluente',
-        'Isaac',
         'Python Pro',
         'Riacho',
         'CRM',
-        'Clientes',
-        'Gerenciamento'
     ]
 )
 def test_contato(client, content):

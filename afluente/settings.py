@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'collectfast',
     'django.contrib.staticfiles',
     'afluente.core',
+    'afluente.demo',
 ]
 
 MIDDLEWARE = [
