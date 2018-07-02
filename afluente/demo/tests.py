@@ -16,14 +16,13 @@ def test_status_code(client):
 
 @pytest.mark.parametrize(
     'content', [
-        'Usuario',
+        'Usuário',
         'Senha',
         'Demo',
         'CRM',
-        'Riacho',
         'Logar',
     ]
 )
 def test_demo(client, content):
     response = client.get('/demo/')
-    dj_assert_contains(response, reverse('demo:index'))
+    dj_assert_contains(response, content)
