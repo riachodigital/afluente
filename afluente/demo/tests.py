@@ -16,11 +16,9 @@ def test_status_code(client):
 
 @pytest.mark.parametrize(
     'content', [
-        'Usuário',
-        'Senha',
-        'Demo',
-        'CRM',
-        'Logar',
+        'Cliente',
+        'Hospedagem',
+        'Ativo',
     ]
 )
 def test_demo(client, content):
