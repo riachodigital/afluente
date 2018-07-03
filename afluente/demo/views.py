@@ -5,24 +5,8 @@ from afluente.demo.models import Cliente
 
 
 def index(request):
+    query_set = Cliente.objects.order_by('nome')
     ctx = {
-        'demo':
-            [
-                Cliente(
-                    'Cliente 1',
-                    'Ativo',
-                    'Hospedagem'
-                ),
-                Cliente(
-                    'Cliente 2',
-                    'Inativo',
-                    'E-mail'
-                ),
-                Cliente(
-                    'Nasa',
-                    'Inativo',
-                    'Hospedagem'
-                )
-            ]
+        'demo': list(query_set)
     }
     return render(request, 'demo/index.html', context=ctx)

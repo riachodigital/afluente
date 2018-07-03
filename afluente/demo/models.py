@@ -1,6 +1,7 @@
-# from django.db import models
+from django.db import models
 
-# Create your models here.
-from collections import namedtuple
 
-Cliente = namedtuple('Cliente', 'nome status servico')
+class Cliente(models.Model):
+    nome = models.CharField(max_length=50)
+    status = models.CharField(max_length=50)
+    servico = models.CharField(max_length=50)
