@@ -164,15 +164,17 @@ if AWS_ACCESS_KEY_ID:  # pragma: no cover
 
 # ------------------------------------------------------------------------------
 
-# Configuring Sentry
-SENTRY_DSN = config('SENTRY_DSN', default=None)
+AUTH_USER_MODEL = 'core.User'
 
-if SENTRY_DSN:  # pragma: no cover
-    INSTALLED_APPS.append('raven.contrib.django.raven_compat')
-    RAVEN_CONFIG = {
-        'dsn': SENTRY_DSN,
-        # If you are using git, you can also automatically configure the
-        # release based on the git info.
-        # If using Heroku use metadata: https://devcenter.heroku.com/articles/dyno-metadata
-        'release': config('HEROKU_SLUG_COMMIT'),
-    }
+# # Configuring Sentry
+# SENTRY_DSN = config('SENTRY_DSN', default=None)
+#
+# if SENTRY_DSN:  # pragma: no cover
+#     INSTALLED_APPS.append('raven.contrib.django.raven_compat')
+#     RAVEN_CONFIG = {
+#         'dsn': SENTRY_DSN,
+#         # If you are using git, you can also automatically configure the
+#         # release based on the git info.
+#         # If using Heroku use metadata: https://devcenter.heroku.com/articles/dyno-metadata
+#         'release': config('HEROKU_SLUG_COMMIT'),
+#     }
