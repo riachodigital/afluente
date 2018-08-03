@@ -1,13 +1,18 @@
 {% extends 'base.html' %}
 {% block title %}Afluente CRM - Demonstração{% endblock title %}
 {% block content %}
+<br>
 <div class="container-fluid">
 	<div class="row">
         {% for clientes in demo %}
-		<div class="col-md-12">
-			<div class="card">
+		<div class="col-md-3">
+			<div class="card" align="center">
 				<h5 class="card-header">
 					{{ clientes.nome }}
+					<br>
+					<img class="img-fluid"
+						 src="{{ clientes.imagem.url }}"
+						 alt="{{ clientes.nome }}">
 				</h5>
 				<div class="card-body">
 					<p class="card-text">
