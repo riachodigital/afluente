@@ -34,6 +34,8 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=False, cast=Csv())
 # Application definition
 
 INSTALLED_APPS = [
+    'afluente.core',
+    'afluente.demo',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,8 +43,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfast',
     'django.contrib.staticfiles',
-    'afluente.core',
-    'afluente.demo',
 ]
 
 MIDDLEWARE = [
@@ -53,7 +53,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
+
+if DEBUG:
+    # Django Debug Toolbar Config
+    INSTALLED_APPS.append('debug_toolbar')
+    MIDDLEWARE.insert(0, 'debug_toolbar.middleware.DebugToolbarMiddleware')
+    INTERNAL_IPS = '127.0.0.1'
 
 ROOT_URLCONF = 'afluente.urls'
 
