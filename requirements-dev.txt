@@ -14,7 +14,7 @@ pluggy==0.6.0
 py==1.6.0
 pytest==3.6.2
 six==1.11.0
-pytest-django==3.4.2
+pytest-django==3.4.3
 
 # Coverage deps
 coverage==4.5.1
