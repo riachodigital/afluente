@@ -24,7 +24,7 @@ urlpatterns = [
     path('', core_views.home),
     path('contato/', core_views.contato),
     path('demo/', include('afluente.demo.urls')),
-    path('contas/', include('django.contrib.auth.urls')),
+    path('accounts/', include('django.contrib.auth.urls')),
 ]
 
 if settings.DEBUG:
