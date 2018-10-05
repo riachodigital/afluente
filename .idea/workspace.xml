@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34b3fe0e-8852-4f8d-9080-2f1da6548525" name="Default" comment="Criado formulário de forma inocente.&#10;&#10;Close #156">
+    <list default="true" id="34b3fe0e-8852-4f8d-9080-2f1da6548525" name="Default" comment="Atualizado o django para a versão 2.0.8&#10;&#10;#Close 124">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afluente/demo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/afluente/demo/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_new.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afluente/demo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/afluente/demo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,68 +15,68 @@
     <session id="1124215059">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="43" />
-          <entry key="project.open.time.1" value="5" />
-          <entry key="project.open.time.10" value="10" />
+          <entry key="project.closed" value="31" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="9" />
-          <entry key="project.opened" value="44" />
+          <entry key="project.open.time.9" value="6" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Procfile" value="1" />
-          <entry key="env" value="3" />
+          <entry key="env" value="2" />
           <entry key="env-sample" value="1" />
           <entry key="flake8" value="1" />
-          <entry key="html" value="10" />
-          <entry key="py" value="31" />
+          <entry key="html" value="9" />
+          <entry key="py" value="20" />
           <entry key="sqlite3" value="1" />
-          <entry key="txt" value="8" />
+          <entry key="txt" value="10" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="2" />
-          <entry key="HTML" value="10" />
-          <entry key="Hoi4 file" value="4" />
+          <entry key=".env file" value="1" />
+          <entry key="HTML" value="9" />
+          <entry key="Hoi4 file" value="6" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="31" />
+          <entry key="Python" value="20" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1535" />
-          <entry key="Hoi4 file" value="8" />
-          <entry key="PLAIN_TEXT" value="346" />
-          <entry key="Python" value="1969" />
+          <entry key="HTML" value="851" />
+          <entry key="Hoi4 file" value="10" />
+          <entry key="PLAIN_TEXT" value="285" />
+          <entry key="Python" value="831" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="17" />
-          <entry key="html" value="1535" />
-          <entry key="py" value="1969" />
-          <entry key="txt" value="337" />
+          <entry key="dummy" value="7" />
+          <entry key="html" value="851" />
+          <entry key="py" value="831" />
+          <entry key="txt" value="288" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.create.new" value="5" />
+          <entry key="git.branch.create.new" value="4" />
           <entry key="git.branch.delete.local" value="2" />
           <entry key="git.branch.merge" value="3" />
-          <entry key="git.branch.rebase" value="9" />
+          <entry key="git.branch.rebase" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -86,62 +84,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_create.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_new.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-              <folding>
-                <element signature="e#1#14#0" expanded="true" />
-                <marker date="1538762072954" expanded="true" signature="284:479" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/afluente/demo/models.py">
+        <entry file="file://$PROJECT_DIR$/afluente/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/afluente/demo/templates/demo/client_form.html">
+        <entry file="file://$PROJECT_DIR$/afluente/core/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="66" lean-forward="true" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+            <state relative-caret-position="238">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/afluente/demo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="141">
+              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -150,10 +114,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/afluente/demo/urls.py">
+        <entry file="file://$PROJECT_DIR$/requirements-dev.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="51">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -182,14 +155,7 @@
       <find>butto</find>
       <find>text</find>
       <find>hide</find>
-      <find>resp</find>
-      <find>debug</find>
-      <find>status</find>
     </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>servico</replace>
-    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
@@ -207,6 +173,7 @@
       <list>
         <option value="$PROJECT_DIR$/afluente/.env" />
         <option value="$PROJECT_DIR$/afluente/core/apps.py" />
+        <option value="$PROJECT_DIR$/afluente/core/models.py" />
         <option value="$PROJECT_DIR$/afluente/core/managers.py" />
         <option value="$PROJECT_DIR$/afluente/core/admin.py" />
         <option value="$PROJECT_DIR$/afluente/core/migrations/0001_initial.py" />
@@ -214,27 +181,19 @@
         <option value="$PROJECT_DIR$/afluente/demo/admin.py" />
         <option value="$PROJECT_DIR$/requirements-dev.txt" />
         <option value="$PROJECT_DIR$/afluente/demo/tests.py" />
+        <option value="$PROJECT_DIR$/afluente/demo/models.py" />
         <option value="$PROJECT_DIR$/afluente/demo/tests/test_views.py" />
         <option value="$PROJECT_DIR$/afluente/demo/templates/demo/index.html" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/afluente/core/tests/test_login.py" />
         <option value="$PROJECT_DIR$/afluente/core/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/afluente/urls.py" />
-        <option value="$PROJECT_DIR$/afluente/core/templates/base.html" />
-        <option value="$PROJECT_DIR$/afluente/core/models.py" />
         <option value="$PROJECT_DIR$/afluente/settings.py" />
-        <option value="$PROJECT_DIR$/afluente/demo/templates/demo/cliente_form.py" />
-        <option value="$PROJECT_DIR$/afluente/demo/templates/demo/cliente_form.html" />
-        <option value="$PROJECT_DIR$/afluente/demo/templates/demo/client_form.html" />
-        <option value="$PROJECT_DIR$/afluente/demo/urls.py" />
-        <option value="$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_create.py" />
-        <option value="$PROJECT_DIR$/afluente/demo/models.py" />
-        <option value="$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_new.py" />
-        <option value="$PROJECT_DIR$/afluente/demo/views.py" />
+        <option value="$PROJECT_DIR$/afluente/core/templates/base.html" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="27" />
     <option name="width" value="683" />
     <option name="height" value="741" />
@@ -254,6 +213,45 @@
               <item name="afluente" type="b2602c69:ProjectViewProjectNode" />
               <item name="afluente" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="afluente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="afluente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="afluente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="afluente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="afluente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="afluente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -262,9 +260,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="urls&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/demo/urls.py&#10;models.py&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/core/models.py&#10;models&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/core/models.py&#10;base.&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/core/templates/base.html&#10;sett&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/settings.py&#10;login.html&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/login.html&#10;login&#9;null&#9;null&#10;contato&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/core/templates/core/contato.html&#10;url&#9;null&#9;null&#10;requi&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/requirements.txt&#10;useradm&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/.env&#10;settin&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/settings.py&#10;auth/mo&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/venv/lib/python3.6/site-packages/django/contrib/auth/models.py" />
+    <property name="SearchEverywhereHistoryKey" value="base.&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/core/templates/base.html&#10;sett&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/settings.py&#10;login.html&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/login.html&#10;login&#9;null&#9;null&#10;contato&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/core/templates/core/contato.html&#10;url&#9;null&#9;null&#10;urls&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/urls.py&#10;requi&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/requirements.txt&#10;useradm&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/.env&#10;settin&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/settings.py&#10;auth/mo&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/venv/lib/python3.6/site-packages/django/contrib/auth/models.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/afluente/demo/tests.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -288,7 +286,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_cliente_view_create.py">
+  <component name="RunManager" selected="Python tests.pytest in test_login.py">
+    <configuration name="tests-all-migrations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="afluente" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/afluente/demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/afluente/" />
+      <option name="PARAMETERS" value="--nomigrations" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="afluente" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,67 +323,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_cliente_view_create.test_cliente_salvo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="afluente" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/afluente/demo/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/afluente/core/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;--nomigrations&quot;" />
-      <option name="_new_target" value="&quot;test_cliente_view_create.test_cliente_salvo&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_cliente_view_create.test_status_code_user_not_logged" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="afluente" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/afluente/demo/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;--nomigrations&quot;" />
-      <option name="_new_target" value="&quot;test_cliente_view_create.test_status_code_user_not_logged&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_cliente_view_create.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="afluente" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/afluente/demo/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;--nomigrations&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_create.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/afluente/core/tests/test_login.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_cliente_view_new.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="afluente" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/afluente/demo/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;--nomigrations&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_new.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_index_view.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+    <configuration name="pytest in test_views.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="afluente" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,7 +349,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/afluente/demo/tests/test_index_view.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/afluente/demo/tests/test_views.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in tests (1)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="afluente" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/afluente/core/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--nomigrations&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/afluente/core/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -383,32 +372,31 @@
       <module name="afluente" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/afluente/demo/tests" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/afluente/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;--nomigrations&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/afluente/demo/tests&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/afluente/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in test_index_view.py" />
-      <item itemvalue="Python tests.pytest in test_cliente_view_new.py" />
+      <item itemvalue="Python tests.pytest in test_views.py" />
+      <item itemvalue="Python.tests-all-migrations" />
       <item itemvalue="Python tests.pytest in tests" />
-      <item itemvalue="Python tests.pytest in test_cliente_view_create.py" />
-      <item itemvalue="Python tests.pytest for test_cliente_view_create.test_status_code_user_not_logged" />
-      <item itemvalue="Python tests.pytest for test_cliente_view_create.test_cliente_salvo" />
+      <item itemvalue="Python tests.pytest in test_login.py" />
+      <item itemvalue="Python tests.pytest in tests (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_cliente_view_create.py" />
-        <item itemvalue="Python tests.pytest for test_cliente_view_create.test_cliente_salvo" />
-        <item itemvalue="Python tests.pytest for test_cliente_view_create.test_status_code_user_not_logged" />
-        <item itemvalue="Python tests.pytest in test_cliente_view_new.py" />
+        <item itemvalue="Python tests.pytest in tests (1)" />
+        <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python tests.pytest in tests" />
+        <item itemvalue="Python.tests-all-migrations" />
+        <item itemvalue="Python tests.pytest in test_login.py" />
       </list>
     </recent_temporary>
   </component>
@@ -479,64 +467,57 @@
       <option name="project" value="LOCAL" />
       <updated>1535379659046</updated>
     </task>
-    <task id="LOCAL-00009" summary="Criado formulário de forma inocente.&#10;&#10;Close #156">
-      <created>1538761762951</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1538761762951</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_cliente_view_create_test_status_code_user_not_logged - 2018.10.01 at 23h 34m 46s.xml">
-      <configuration name="pytest for test_cliente_view_create.test_status_code_user_not_logged" configurationId="tests" />
+    <history-entry file="pytest_in_test_login_py - 2018.08.31 at 17h 07m 22s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_cliente_view_create_test_cliente_salvo - 2018.10.01 at 23h 40m 37s.xml">
-      <configuration name="pytest for test_cliente_view_create.test_cliente_salvo" configurationId="tests" />
+    <history-entry file="pytest_in_test_login_py - 2018.08.31 at 17h 10m 38s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_cliente_view_create_py - 2018.10.01 at 23h 43m 52s.xml">
-      <configuration name="pytest in test_cliente_view_create.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login_py - 2018.08.31 at 17h 15m 24s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_cliente_view_create_py - 2018.10.01 at 23h 44m 48s.xml">
-      <configuration name="pytest in test_cliente_view_create.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login_py - 2018.08.31 at 17h 20m 19s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_cliente_view_create_py - 2018.10.01 at 23h 45m 25s.xml">
-      <configuration name="pytest in test_cliente_view_create.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login_py - 2018.08.31 at 17h 25m 29s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_cliente_view_create_py - 2018.10.05 at 14h 26m 42s.xml">
-      <configuration name="pytest in test_cliente_view_create.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login_py - 2018.09.03 at 16h 03m 46s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_cliente_view_create_test_cliente_salvo - 2018.10.05 at 14h 32m 29s.xml">
-      <configuration name="pytest for test_cliente_view_create.test_cliente_salvo" configurationId="tests" />
+    <history-entry file="pytest_in_test_login_py - 2018.09.03 at 16h 04m 55s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_cliente_view_create_test_cliente_salvo - 2018.10.05 at 14h 33m 23s.xml">
-      <configuration name="pytest for test_cliente_view_create.test_cliente_salvo" configurationId="tests" />
+    <history-entry file="pytest_in_test_login_py - 2018.09.03 at 16h 05m 24s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_cliente_view_create_test_cliente_salvo - 2018.10.05 at 14h 43m 23s.xml">
-      <configuration name="pytest for test_cliente_view_create.test_cliente_salvo" configurationId="tests" />
+    <history-entry file="pytest_in_test_login_py - 2018.09.03 at 16h 12m 23s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_cliente_view_create_py - 2018.10.05 at 14h 43m 40s.xml">
-      <configuration name="pytest in test_cliente_view_create.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login_py - 2018.09.03 at 17h 05m 01s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1360" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="322" y="94" width="394" height="599" id="Project" order="0" sideWeight="0.4979757" visible="true" weight="0.25056097" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979757" visible="true" weight="0.25056097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5020243" side_tool="true" weight="0.24888226" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32888147" />
-      <window_info anchor="bottom" x="80" y="115" width="1196" height="565" id="Run" order="2" weight="0.49253732" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6268657" />
+      <window_info anchor="bottom" x="80" y="115" width="1196" height="565" id="Run" order="2" weight="0.6928214" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" x="40" y="231" width="1284" height="415" id="Terminal" order="7" sideWeight="0.49926794" type="WINDOWED" weight="0.3706177" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50073206" side_tool="true" weight="0.41402337" />
+      <window_info anchor="bottom" x="210" y="120" width="899" height="590" id="Terminal" order="7" sideWeight="0.49926794" type="WINDOWED" weight="0.3706177" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50073206" side_tool="true" weight="0.41293532" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.30717862" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32888147" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -600,19 +581,7 @@
     <MESSAGE value="Configurado o template para autenticação e criado o primeiro teste.&#10;&#10;Close #117" />
     <MESSAGE value="Atualizado o django para a versão 2.1&#10;&#10;#Close 124" />
     <MESSAGE value="Atualizado o django para a versão 2.0.8&#10;&#10;#Close 124" />
-    <MESSAGE value="Criado formulário de forma inocente.&#10;&#10;Close #156" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado formulário de forma inocente.&#10;&#10;Close #156" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/afluente/demo/views.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizado o django para a versão 2.0.8&#10;&#10;#Close 124" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/afluenteback/.env" />
@@ -634,6 +603,13 @@
         <state relative-caret-position="-126" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/afluente/core/managers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -648,6 +624,13 @@
     <entry file="file://$PROJECT_DIR$/db.sqlite3">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/demo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/afluente/django_assertions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -655,17 +638,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements-dev.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="17" selection-start-line="20" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_views.py" />
     <entry file="file://$PROJECT_DIR$/afluente/core/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2890">
           <caret line="187" selection-start-line="187" selection-end-line="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -681,6 +665,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/demo/templates/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/afluente/core/migrations/0002_auto_20180717_1146.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -706,6 +697,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/demo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/afluente/core/templates/core/contato.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -713,16 +711,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib64/python3.6/site-packages/django/contrib/admin/sites.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib64/python3.6/site-packages/urllib3/util/response.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/login.html" />
+    <entry file="file://$PROJECT_DIR$/afluente/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="111" column="46" selection-start-line="111" selection-start-column="46" selection-end-line="111" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/afluente/core/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -737,69 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_index_view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/core/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/demo/templates/demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="32" lean-forward="true" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/demo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib64/python3.7/site-packages/pluggy/callers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib64/python3.7/site-packages/_pytest/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="192" selection-start-line="192" selection-end-line="192" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/core/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="109" selection-start-line="17" selection-start-column="109" selection-end-line="17" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/afluente/demo/templates/demo/client_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -807,48 +742,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_create.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/demo/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <element signature="e#1#14#0" expanded="true" />
-            <marker date="1538762072954" expanded="true" signature="284:479" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/afluente/demo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="141">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/core/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements-dev.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
