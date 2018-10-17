@@ -2,18 +2,19 @@ from django.db import models
 
 
 class Cliente(models.Model):
+
     status_choice = (
         ('AT', 'Ativo'),
-        ('INAT', 'Inativo'),
+        ('INT', 'Inativo'),
     )
     servico_choice = (
         ('HOSP', 'Hospedagem'),
         ('MAIL', 'E-mail'),
-        ('HOSPMAIL', 'Hospedagem e E-mail'),
+        ('HOSMAIL', 'Hospedagem e E-mail'),
     )
     nome = models.CharField(max_length=50)
-    status = models.CharField(max_length=1, choices=status_choice)
-    servico = models.CharField(max_length=1, choices=servico_choice)
+    status = models.CharField(max_length=10, choices=status_choice)
+    servico = models.CharField(max_length=50, choices=servico_choice)
     imagem = models.ImageField(max_length=200, upload_to='clientes/', null=True)
 
     def __str__(self):

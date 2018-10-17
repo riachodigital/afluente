@@ -5,7 +5,7 @@ from afluente.demo.models import Cliente
 
 @pytest.fixture
 def resp_without_user(client: Cliente):
-    return client.get(
+    return client.post(
         reverse('demo:create'), data={
             'nome': 'Nasa',
             'status': 'AT',

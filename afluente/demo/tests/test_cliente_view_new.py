@@ -34,17 +34,18 @@ def test_status_code_user_logged(resp):
 @pytest.mark.parametrize(
     'content', [
         '<input type="text" name="nome"',
-        '<option>Ativo</option>',
-        '<option>Inativo</option>',
-        '<option>Hospedagem</option>',
-        '<option>E-mail</option>',
-        '<option>Hospedagem e E-mail</option>',
+        '<option value="AT">Ativo</option>',
+        '<option value="INT">Inativo</option>',
+        '<option value="HOSP">Hospedagem</option>',
+        '<option value="MAIL">E-mail</option>',
+        '<option value="HOSPMAIL">Hospedagem e E-mail</option>',
+        '<button type="submit"',
+        'csrfmiddlewaretoken',
     ]
 )
 def test_client_form_inputs(resp, content):
     dj_assert_contains(resp, content)
-#
-#
-# def test_img_url(resp, demo):
-#     cliente = demo[0]
-#     dj_assert_contains(resp, cliente.imagem.url)
+
+
+def test_client_form_action(resp):
+    dj_assert_contains(resp, f'''<form method="post" action="{reverse('demo:create')}''')
