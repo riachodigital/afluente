@@ -23,10 +23,11 @@ def demo(db):
         name='riachoimg.png', content=open(IMAGE_PATH, 'rb').read(), content_type='image/png')
     cliente = Cliente(
         nome='Nasa',
-        status='Inativo',
+        status='INT',
         imagem=image,
-        servico='Hospedagem'
+        servico='HOSP',
     )
+
     cliente.save()
     return [cliente]
 

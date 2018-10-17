@@ -1,7 +1,6 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 
-# from django.http import HttpResponse
 from django.urls import reverse
 
 from afluente.demo.models import Cliente
@@ -22,7 +21,7 @@ def new(request):
 
 @login_required
 def create(request):
-    dct = request.GET
+    dct = request.POST
     cliente = Cliente(nome=dct['nome'], status=dct['status'], servico=dct['servico'])
     cliente.save()
     return redirect(reverse('demo:index'))
