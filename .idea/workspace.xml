@@ -2,15 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34b3fe0e-8852-4f8d-9080-2f1da6548525" name="Default" comment="Atualizado o django-storages&#10;&#10;#Close 174">
-      <change afterPath="$PROJECT_DIR$/afluente/core/migrations/0003_auto_20181005_1531.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afluente/demo/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afluente/demo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/afluente/demo/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/afluente/demo/templates/demo/client_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/afluente/demo/templates/demo/client_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afluente/demo/templates/demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/afluente/demo/templates/demo/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_create.py" beforeDir="false" afterPath="$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_create.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_new.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afluente/demo/tests/test_index_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/afluente/demo/tests/test_index_view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/afluente/demo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/afluente/demo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afluente/django_assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/afluente/django_assertions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_0qLv5jX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_1mxTx4f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_2dMqYUt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_3Lpqv8x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_4IO2A0j.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_6CahJyC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_7B3lxq1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_8vTLi6E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_A0CnNzY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_ABllld2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_AgMWhLj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_B02UpE3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_FWqCz8m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_GnSsuoW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_JcpvUBN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_KRfPdlz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_L5aGZhw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_LgXOfAl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_LiEmmLs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_M6AamWl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_MBW8cgj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_MTt6uKm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_NSGuTF7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_OI1c9qa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_OwzZxWu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_QFdIAAI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_TLyKUcU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_TrwLNKn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_UbdVdcK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_Uxrf2C3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_WiLalC6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_Y8YN8Rp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_YCZRmHH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_aWPAj25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_b82Ksga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_bgI1ENF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_bw5KWpL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_ctcrSwo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_fJRvuvo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_gCE0aBy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_hmuMzC9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_mRC1L6B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_mURuI4g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_mnbC65v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_mxKtkHM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_oZhJQeo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_p9Kncm1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_qT4xwJ8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_sJBHlfK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_sofgGT8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_trRAptw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_uRDqWIG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_yiqIq5W.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/clientes/riachoimg_zjEcctf.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,31 +74,32 @@
     <session id="1124215059">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="39" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="9" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.closed" value="48" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.10" value="10" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.open.time.9" value="10" />
+          <entry key="project.opened" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Procfile" value="1" />
-          <entry key="env" value="2" />
+          <entry key="Procfile" value="2" />
+          <entry key="env" value="3" />
           <entry key="env-sample" value="1" />
           <entry key="flake8" value="1" />
-          <entry key="html" value="12" />
-          <entry key="py" value="35" />
+          <entry key="html" value="14" />
+          <entry key="py" value="44" />
           <entry key="sqlite3" value="1" />
           <entry key="txt" value="10" />
           <entry key="yml" value="2" />
@@ -54,37 +107,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="1" />
-          <entry key="HTML" value="12" />
+          <entry key=".env file" value="2" />
+          <entry key="HTML" value="14" />
           <entry key="Hoi4 file" value="6" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="35" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="44" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1062" />
+          <entry key=".env file" value="1" />
+          <entry key="HTML" value="1378" />
           <entry key="Hoi4 file" value="10" />
           <entry key="PLAIN_TEXT" value="320" />
-          <entry key="Python" value="1120" />
+          <entry key="Python" value="2153" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="html" value="1062" />
-          <entry key="py" value="1120" />
+          <entry key="env" value="1" />
+          <entry key="html" value="1378" />
+          <entry key="py" value="2153" />
           <entry key="txt" value="323" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
           <entry key="git.branch.checkout.local" value="1" />
-          <entry key="git.branch.create.new" value="5" />
+          <entry key="git.branch.create.new" value="6" />
           <entry key="git.branch.delete.local" value="3" />
           <entry key="git.branch.merge" value="3" />
-          <entry key="git.branch.rebase" value="9" />
+          <entry key="git.branch.rebase" value="11" />
         </counts>
       </usages-collector>
     </session>
@@ -92,37 +147,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_new.py">
+        <entry file="file://$PROJECT_DIR$/afluente/demo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="360">
+              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_create.py">
+        <entry file="file://$PROJECT_DIR$/afluente/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_index_view.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1926">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
             </state>
           </provider>
         </entry>
@@ -130,17 +170,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/afluente/demo/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="306">
+              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/afluente/demo/views.py">
+        <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_create.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="36">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/afluente/demo/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/afluente/demo/templates/demo/client_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -171,10 +232,11 @@
       <find>hide</find>
       <find>butt</find>
       <find>ima</find>
-      <find>nome</find>
       <find>sta</find>
       <find>stat</find>
       <find>get</find>
+      <find>value</find>
+      <find>nome</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -208,20 +270,24 @@
         <option value="$PROJECT_DIR$/afluente/settings.py" />
         <option value="$PROJECT_DIR$/afluente/core/templates/base.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/afluente/demo/templates/demo/client_form.html" />
         <option value="$PROJECT_DIR$/afluente/demo/templates/demo/index.html" />
         <option value="$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_new.py" />
-        <option value="$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_create.py" />
         <option value="$PROJECT_DIR$/afluente/demo/tests/test_index_view.py" />
         <option value="$PROJECT_DIR$/afluente/demo/models.py" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/afluente/django_assertions.py" />
+        <option value="$PROJECT_DIR$/afluente/demo/templates/demo/client_form.html" />
+        <option value="$PROJECT_DIR$/afluente/demo/forms.py" />
         <option value="$PROJECT_DIR$/afluente/demo/views.py" />
+        <option value="$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_create.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="683" />
-    <option name="height" value="741" />
+    <option name="x" value="1366" />
+    <option name="y" value="105" />
+    <option name="width" value="1356" />
+    <option name="height" value="576" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -231,7 +297,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,14 +304,26 @@
               <item name="afluente" type="b2602c69:ProjectViewProjectNode" />
               <item name="afluente" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="afluente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="afluente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="afluente" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="views&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/demo/views.py&#10;models&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/demo/models.py&#10;model&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/demo/models.py&#10;urls&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/demo/urls.py&#10;base.&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/core/templates/base.html&#10;sett&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/settings.py&#10;login.html&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/login.html&#10;login&#9;null&#9;null&#10;contato&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/core/templates/core/contato.html&#10;url&#9;null&#9;null&#10;requi&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/requirements.txt&#10;useradm&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/.env&#10;settin&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/settings.py&#10;auth/mo&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/venv/lib/python3.6/site-packages/django/contrib/auth/models.py" />
+    <property name="SearchEverywhereHistoryKey" value="sett&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/settings.py&#10;client&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/demo/templates/demo/client_form.html&#10;view&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/demo/views.py&#10;form&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/demo/templates/demo/client_form.html&#10;djang&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/django_assertions.py&#10;views&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/demo/views.py&#10;models&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/demo/models.py&#10;model&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/demo/models.py&#10;urls&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/demo/urls.py&#10;base.&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/core/templates/base.html&#10;login.html&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/login.html&#10;login&#9;null&#9;null&#10;contato&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/core/templates/core/contato.html&#10;url&#9;null&#9;null&#10;requi&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/requirements.txt&#10;useradm&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/.env&#10;settin&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/afluente/settings.py&#10;auth/mo&#9;FILE&#9;file:///home/yzakius/PycharmProjects/afluente/venv/lib/python3.6/site-packages/django/contrib/auth/models.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
@@ -404,11 +481,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_cliente_view_create.py" />
         <item itemvalue="Python tests.pytest in tests (2)" />
         <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in tests (1)" />
         <item itemvalue="Python tests.pytest in tests.py" />
-        <item itemvalue="Python tests.pytest in test_cliente_view_create.py" />
       </list>
     </recent_temporary>
   </component>
@@ -490,52 +567,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_cliente_view_create_py - 2018.10.17 at 15h 35m 53s.xml">
-      <configuration name="pytest in test_cliente_view_create.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tests - 2018.10.17 at 15h 36m 28s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tests_py - 2018.10.17 at 15h 36m 48s.xml">
-      <configuration name="pytest in tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tests_(1) - 2018.10.17 at 15h 37m 11s.xml">
-      <configuration name="pytest in tests (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tests - 2018.10.17 at 15h 37m 27s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_tests_(2) - 2018.10.17 at 15h 37m 32s.xml">
-      <configuration name="pytest in tests (2)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest-all - 2018.10.17 at 15h 57m 15s.xml">
+    <history-entry file="pytest-all - 2018.10.25 at 16h 23m 15s.xml">
       <configuration name="pytest-all" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest-all - 2018.10.17 at 15h 58m 23s.xml">
+    <history-entry file="pytest-all - 2018.10.25 at 16h 25m 30s.xml">
       <configuration name="pytest-all" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest-all - 2018.10.17 at 15h 59m 02s.xml">
+    <history-entry file="pytest-all - 2018.10.25 at 16h 26m 28s.xml">
       <configuration name="pytest-all" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest-all - 2018.10.17 at 16h 05m 46s.xml">
+    <history-entry file="pytest-all - 2018.10.25 at 16h 27m 00s.xml">
+      <configuration name="pytest-all" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest-all - 2018.10.25 at 16h 27m 55s.xml">
+      <configuration name="pytest-all" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest-all - 2018.11.10 at 17h 13m 27s.xml">
+      <configuration name="pytest-all" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest-all - 2018.11.10 at 17h 14m 03s.xml">
+      <configuration name="pytest-all" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest-all - 2018.11.10 at 17h 17m 19s.xml">
+      <configuration name="pytest-all" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest-all - 2018.11.10 at 17h 19m 49s.xml">
+      <configuration name="pytest-all" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest-all - 2018.11.10 at 17h 19m 58s.xml">
       <configuration name="pytest-all" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="1366" y="27" width="1360" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979757" visible="true" weight="0.24869695" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979757" visible="true" weight="0.24831712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5020243" side_tool="true" weight="0.24888226" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32888147" />
-      <window_info anchor="bottom" x="80" y="115" width="1196" height="565" id="Run" order="2" visible="true" weight="0.64013267" />
+      <window_info anchor="bottom" x="80" y="115" width="1196" height="565" id="Run" order="2" weight="0.51077944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30016583" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" x="121" y="310" width="1129" height="429" id="Terminal" order="7" sideWeight="0.49926794" type="WINDOWED" visible="true" weight="0.3706177" />
+      <window_info active="true" anchor="bottom" x="1474" y="216" width="1165" height="523" id="Terminal" order="7" sideWeight="0.49926794" visible="true" weight="0.4792703" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50073206" side_tool="true" weight="0.41293532" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.30717862" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32888147" />
@@ -620,32 +697,11 @@
     <entry file="file://$PROJECT_DIR$/db.sqlite3">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/django_assertions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_views.py" />
     <entry file="file://$PROJECT_DIR$/afluente/core/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2890">
           <caret line="187" selection-start-line="187" selection-end-line="187" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -689,13 +745,6 @@
     <entry file="file://$PROJECT_DIR$/venv/lib64/python3.6/site-packages/django/contrib/admin/sites.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib64/python3.6/site-packages/urllib3/util/response.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/login.html" />
-    <entry file="file://$PROJECT_DIR$/afluente/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="111" column="46" selection-start-line="111" selection-start-column="46" selection-end-line="111" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/afluente/core/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -724,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/core/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/afluente/core/migrations/0003_auto_20181005_1531.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -742,13 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -770,16 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/demo/templates/demo/client_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="77" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -790,23 +815,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_create.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_index_view.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,17 +829,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/afluente/demo/models.py">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="17">
+          <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/core/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib64/python3.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="1117" column="8" selection-start-line="1117" selection-start-column="8" selection-end-line="1117" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/django_assertions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib64/python3.7/site-packages/django/forms/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/afluente/demo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="360">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1926">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/demo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/demo/templates/demo/client_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/demo/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/afluente/demo/tests/test_cliente_view_create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
