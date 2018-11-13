@@ -14,7 +14,7 @@ class Cliente(models.Model):
     )
     nome = models.CharField(max_length=50)
     status = models.CharField(max_length=10, choices=status_choice)
-    servico = models.CharField(max_length=50, choices=servico_choice)
+    servico = models.CharField(max_length=51, choices=servico_choice)
     imagem = models.ImageField(max_length=200, upload_to='clientes/', null=True)
 
     def __str__(self):
