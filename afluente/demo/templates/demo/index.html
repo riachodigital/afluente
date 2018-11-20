@@ -2,7 +2,15 @@
 {% block title %}Afluente CRM - Demonstração{% endblock title %}
 {% block content %}
 <br>
+
 <div class="container-fluid">
+    {% if user.is_authenticated %}
+    <ul>
+        <li><a href="{% url 'demo:new' %}">Criar Novo Cliente</a></li>
+        <li><a href="#">Remover ou Alterar Clientes</a></li>
+    </ul>
+    {% endif %}
+    <h1>Clientes Cadastrados</h1>
 	<div class="row">
         {% for clientes in demo %}
 		<div class="col-md-3">
