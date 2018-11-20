@@ -12,7 +12,7 @@ def test_status_code(client):
     'content', [
         'Afluente',
         'Contato',
-        'Demo',
+        'Clientes',
     ]
 )
 def test_home(client, content):
