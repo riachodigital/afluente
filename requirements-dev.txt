@@ -16,5 +16,5 @@ pytest==4.3
 pytest-django==3.4.8
 
 # Coverage deps
-coverage==4.5.2
+coverage==4.5.3
 pytest-cov==2.6.1
