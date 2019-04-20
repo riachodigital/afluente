@@ -17,4 +17,4 @@ dj-database-url==0.5.0
 psycopg2-binary==2.7.7
 pillow==5.4.1
 django-debug-toolbar==1.11
-sqlparse==0.2.4
+sqlparse==0.3.0
