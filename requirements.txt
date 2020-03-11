@@ -5,7 +5,7 @@ pytz==2019.1
 gunicorn==19.9.0
 python-decouple==3.1
 six==1.11.0
-botocore==1.12.169
+botocore==1.15.19
 django-s3-folder-storage==0.5
 django-storages==1.7.1
 docutils==0.14
