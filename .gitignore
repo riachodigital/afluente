@@ -103,5 +103,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-#Pycharm
-.idea/
+# ides
+.idea/ 
+.vscode/
+
+# My files
+todo.md
+*.drawio
