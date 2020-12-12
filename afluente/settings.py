@@ -36,6 +36,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=False, cast=Csv())
 INSTALLED_APPS = [
     'afluente.core',
     'afluente.demo',
+    'afluente.customers',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
