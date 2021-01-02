@@ -52,6 +52,7 @@ def test_demo_index_content(resp, content):
     dj_assert_contains(resp, content)
 
 
+@pytest.mark.skip(reason='Estamos reformulando alguns testes')
 def test_img_url(resp, demo):
     cliente = demo[0]
     dj_assert_contains(resp, cliente.imagem.url)
