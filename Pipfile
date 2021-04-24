@@ -27,6 +27,8 @@ pytest = "*"
 pytest-django = "*"
 coverage = "*"
 pytest-cov = "*"
+django-debug-toolbar = "*"
+urllib3 = "*"
 
 [requires]
 python_version = "3.9"
