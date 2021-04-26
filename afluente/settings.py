@@ -34,6 +34,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=False, cast=Csv())
 INSTALLED_APPS = [
     'afluente.core',
     'afluente.customers',
+    'afluente.services',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfast',
     'django.contrib.staticfiles',
-    'afluente.services',
 ]
 
 MIDDLEWARE = [
