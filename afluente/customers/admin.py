@@ -5,5 +5,5 @@ from afluente.customers.models import Customer
 
 @admin.register(Customer)
 class CustomerAdmin(admin.ModelAdmin):
-    list_display = ['nome']
-    ordering = ("nome",)
+    list_display = ['name']
+    ordering = ('name',)
