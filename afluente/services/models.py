@@ -6,10 +6,12 @@ from afluente.customers.models import Customer
 class Service(models.Model):
     HOSPEDAGEM = 'HP'
     EMAIL = 'MA'
+    HOSPEDAGEM_EMAIL = 'HE'
     NUVEM = 'NV'
     SERVICE_CHOICES = [
         (HOSPEDAGEM, 'Hospedagem'),
         (EMAIL, 'E-mail'),
+        (HOSPEDAGEM_EMAIL, 'Hospedagem + E-mail'),
         (NUVEM, 'Nuvem'),
     ]
     service = models.CharField(
