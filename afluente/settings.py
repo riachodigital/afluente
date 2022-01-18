@@ -224,3 +224,5 @@ AUTH_USER_MODEL = 'core.User'
 #         # If using Heroku use metadata: https://devcenter.heroku.com/articles/dyno-metadata
 #         'release': config('HEROKU_SLUG_COMMIT'),
 #     }
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
