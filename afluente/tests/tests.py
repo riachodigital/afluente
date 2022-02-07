@@ -8,11 +8,10 @@ def test_status_code(client):
     assert 200 == response.status_code
 
 
+
 @pytest.mark.parametrize(
     'content', [
         'Afluente',
-        'Contato',
-        'Clientes',
     ]
 )
 def test_home(client, content):
