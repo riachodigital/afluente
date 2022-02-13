@@ -27,3 +27,4 @@ class Service(models.Model):
     end_date = models.DateField(verbose_name='Término do Serviço')
     price = models.DecimalField(verbose_name="Valor", decimal_places=2, max_digits=6)
     observation = models.TextField(verbose_name="Observações", blank=True, null=True)
+
