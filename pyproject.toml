@@ -6,7 +6,7 @@ authors = ["yzakius <dev@yzakius.me>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-Django = "^4.1.7"
+Django = "^4.1.9"
 botocore = "^1.29.73"
 boto3 = "^1.26.73"
 Collectfast = "^2.2.0"
