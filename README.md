@@ -1,52 +1,50 @@
 # Afluente
-[![Build Status](https://travis-ci.org/yzakius/afluente.svg?branch=master)](https://travis-ci.org/yzakius/afluente)
-[![Updates](https://pyup.io/repos/github/yzakius/afluente/shield.svg)](https://pyup.io/repos/github/yzakius/afluente/)
-[![Python 3](https://pyup.io/repos/github/yzakius/afluente/python-3-shield.svg)](https://pyup.io/repos/github/yzakius/afluente/)
 [![codecov](https://codecov.io/gh/yzakius/afluente/branch/master/graph/badge.svg)](https://codecov.io/gh/yzakius/afluente)
 
 ## Sobre
 
-Afluente é um projeto pessoal criado para treinar conceitos aprendidos no curso de Python/Django do [Python Pro](http://www.python.pro.br/).
+Afluente é um projeto pessoal que visa me auxiliar na gestão de clientes da empresa [Riacho](http://riacho.info). A sua origem surge como um método para para treinar conceitos aprendidos no curso de Python/Django do [Python Pro](http://www.python.pro.br/). Hoje, prentendo reutilizar este projeto para treinar minhas habilidades em frontend (HTML, CSS e JS).
 
-Este projeto visa resolver alguns problemas de gerenciamento administrativo da [Riacho](http://riacho.info), como:
+## Objetivos do Projeto
 
 * Gerenciamento de Clientes
 * Movimentação Financeira
 
 ## Estado Atual do Projeto
 
-No momento o Afluente conta com um app que faz o gerenciamento de clientes. Este recurso está em constante desenvolvimento.
-
-### Roadmap
-
-Criação do app para movimentação financeira.
+Foi retomado o projeto e sendo feitos alguns ajustes.
 
 
 ## Instalação
 
-O Afluente é *suportado pelo Python 3 e Django 2*
-
 ### Clonando o Repositório
 
-```console
-git clone https://github.com/yzakius/afluente.git
+```bash
+git clone https://github.com/riachodigital/afluente.git
 ```
 
 ### Configurando o Ambiente
 
-*dentro do diretório afluente:*
+```bash
+poetry install
+```
+Caso queira usar o PIP:
 
-```console
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements-dev.txt
+```
+Copie o exemplo de varíaveis de ambiente:
+
+```bash
 cp contrib/env-sample .env
 ```
 
 ### Rodando o Projeto
-
-*dentro do diretório afluente:*
-
-```commandline
+```bash
+python manage.py migrate
+```
+```bash
 python manage.py runserver
 ```
