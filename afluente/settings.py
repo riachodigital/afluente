@@ -12,24 +12,14 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 
 import os
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 from decouple import config, Csv
 from dj_database_url import parse
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
-
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
-
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=False, cast=Csv())
-
-# Application definition
 
 INSTALLED_APPS = [
     'afluente.core',
@@ -80,15 +70,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'afluente.wsgi.application'
 
-# Database
-# https://docs.djangoproject.com/en/dev/ref/settings/#databases
 default_db_url = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
 DATABASES = {
     'default': config('DATABASE_URL', default=default_db_url, cast=parse),
 }
 
-# Password validation
-# https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -107,8 +93,6 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LOGIN_REDIRECT_URL = LOGOUT_REDIRECT_URL = '/'
 
-# Internationalization
-# https://docs.djangoproject.com/en/2.0/topics/i18n/
 
 LANGUAGE_CODE = 'pt-br'
 
@@ -120,8 +104,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
@@ -144,9 +126,6 @@ if AWS_ACCESS_KEY_ID:
     AWS_PRELOAD_METADATA = True
     AWS_AUTO_CREATE_BUCKET = False
     AWS_QUERYSTRING_AUTH = True
-    # TODO: rever a necessidade dessa varíavel
-    # AWS_S3_CUSTOM_DOMAIN = None
-
     AWS_DEFAULT_ACL = None
 
     # CollectFast
@@ -155,7 +134,6 @@ if AWS_ACCESS_KEY_ID:
     COLLECTFAST_STRATEGY = 'collectfast.strategies.boto3.Boto3Strategy'
 
     # Static Files
-    # STATICFILES_STORAGE = 's3_folder_storage.s3.StaticStorage'
     STATIC_S3_PATH = 'static'
     STATIC_ROOT = f'/{STATIC_S3_PATH}/'
     STATIC_URL = f'//s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/{STATIC_S3_PATH}/'
@@ -170,59 +148,6 @@ if AWS_ACCESS_KEY_ID:
     INSTALLED_APPS.append('s3_folder_storage')
     INSTALLED_APPS.append('storages')
 
-# AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
-#
-# if AWS_ACCESS_KEY_ID:  # pragma: no cover
-# # CollectFast
-# COLLECTFAST_ENABLE = True
-# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-# COLLECTFAST_STRATEGY = 'collectfast.strategies.boto3.Boto3Strategy'
-# INSTALLED_APPS.append('s3_folder_storage')
-# INSTALLED_APPS.append('storages')
-# AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
-# AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME')
-# AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age=86400', }
-# AWS_PRELOAD_METADATA = True
-# AWS_AUTO_CREATE_BUCKET = False
-# AWS_QUERYSTRING_AUTH = False
-# AWS_DEFAULT_ACL = None
-#
-# # AWS cache settings, don't change unless you know what you're doing:
-# AWS_EXPIRY = 60 * 60 * 24 * 7
-#
-# # Revert the following and use str after the above-mentioned bug is fixed in
-# # either django-storage-redux or boto
-# control = f'max-age={AWS_EXPIRY:d}, s-maxage={AWS_EXPIRY:d}, must-revalidate'
-#
-# # Upload Media Folder
-# DEFAULT_FILE_STORAGE = 's3_folder_storage.s3.DefaultStorage'
-# DEFAULT_S3_PATH = 'media'
-# MEDIA_ROOT = f'/{DEFAULT_S3_PATH}/'
-# MEDIA_URL = f'//s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/{DEFAULT_S3_PATH}/'
-#
-# # Static Assets
-# # ------------------------------------------------------------------------------
-# STATICFILES_STORAGE = 's3_folder_storage.s3.StaticStorage'
-# STATIC_S3_PATH = 'static'
-# STATIC_ROOT = f'/{STATIC_S3_PATH}/'
-# STATIC_URL = f'//s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/{STATIC_S3_PATH}/'
-# ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
-
-# ------------------------------------------------------------------------------
-
 AUTH_USER_MODEL = 'core.User'
-
-# # Configuring Sentry
-# SENTRY_DSN = config('SENTRY_DSN', default=None)
-#
-# if SENTRY_DSN:  # pragma: no cover
-#     INSTALLED_APPS.append('raven.contrib.django.raven_compat')
-#     RAVEN_CONFIG = {
-#         'dsn': SENTRY_DSN,
-#         # If you are using git, you can also automatically configure the
-#         # release based on the git info.
-#         # If using Heroku use metadata: https://devcenter.heroku.com/articles/dyno-metadata
-#         'release': config('HEROKU_SLUG_COMMIT'),
-#     }
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
