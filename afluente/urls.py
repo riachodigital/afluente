@@ -22,8 +22,6 @@ from afluente.core import views as core_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', core_views.home),
-    path('dashboard/', core_views.dashboard),
-    path('contato/', core_views.contato),
     path('accounts/', include('django.contrib.auth.urls')),
 ]
 
